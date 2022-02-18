@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+
+    <!-- Navbar start -->
+    
+    {{>navbar}}
+
+    <!-- Navbar End  -->
+
+    <!-- Main Header Start -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="img/404.png" alt="about" class="img-fluid" title="Weather Application">
+                        </figure>
+                        <p>Welcome to Weather Application</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button><i class="fa-solid fa-arrow-left-long"></i> Back to Home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Header End -->
+
+    <!-- Footer Start-->
+    
+    {{>footer}}
+
+    <!-- Footer End-->
+</body>
+</html>
